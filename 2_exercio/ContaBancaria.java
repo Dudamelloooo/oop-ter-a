@@ -7,6 +7,10 @@ public class ContaBancaria {
         this.saldo = 0.0;
     }
 
+    public String getTitular() {
+        return titular;
+    }
+
     public void depositar(double valor) {
         saldo += valor;
         System.out.println("Depositando " + valor + ". Saldo atual: " + saldo);

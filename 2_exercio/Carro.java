@@ -7,6 +7,27 @@ public class Carro {
         this.modelo = modelo;
         this.ano = ano;
         this.velocidadeAtual = 0;
+        modeloAno(); 
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    public int getAno() {
+        return ano;
+    }
+
+    public void setAno(int ano) {
+        this.ano = ano;
+    }
+    
+    public void modeloAno() {
+        System.out.println("Modelo: " + modelo + " Ano: " + ano);
     }
 
     public void acelerar() {
@@ -27,4 +48,3 @@ public class Carro {
         System.out.println("Velocidade atual: " + velocidadeAtual + " km/h");
     }
 }
-

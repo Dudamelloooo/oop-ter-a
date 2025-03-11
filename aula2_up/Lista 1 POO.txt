@@ -1,0 +1,53 @@
+Lista de Exercícios - Java POO
+1. Classe Pessoa
+Crie uma classe chamada Pessoa com os seguintes atributos:
+
+Nome
+Idade
+Altura
+Adicione um método exibirDados() que imprime os dados da pessoa. No main, crie um objeto da classe Pessoa, atribua valores e exiba os dados.
+
+2. Classe Carro
+Crie uma classe Carro com os seguintes atributos:
+
+Modelo
+Ano
+Velocidade atual
+Crie métodos:
+
+acelerar(), que aumenta a velocidade em 10 km/h.
+frear(), que reduz a velocidade em 10 km/h (mas nunca abaixo de 0).
+exibirVelocidade(), que mostra a velocidade atual.
+No main, crie um carro, acelere e freie algumas vezes e exiba a velocidade.
+
+3. Classe ContaBancaria
+Crie uma classe ContaBancaria com:
+
+Atributos: titular, saldo
+Métodos:
+depositar(double valor): adiciona dinheiro à conta.
+sacar(double valor): retira dinheiro da conta (se houver saldo suficiente).
+exibirSaldo(): mostra o saldo atual.
+No main, crie uma conta, realize depósitos e saques e exiba o saldo.
+
+4. Classe Aluno e Curso
+Crie uma classe Aluno com os atributos:
+
+Nome
+Matrícula
+Nota 1
+Nota 2
+Crie um método calcularMedia() que retorna a média das notas e um método exibirStatus(), que diz se o aluno está aprovado (média ≥ 6) ou reprovado.
+
+No main, crie um aluno, atribua notas e exiba seu status.
+
+5. Classe Animal (Herança)
+Crie uma classe base Animal com os atributos:
+
+Nome
+Idade
+E um método emitirSom() (imprime "Som de animal"). Depois, crie duas classes derivadas:
+
+Cachorro (sobrescreve emitirSom() para imprimir "Latido").
+Gato (sobrescreve emitirSom() para imprimir "Miado").
+No main, crie instâncias de Cachorro e Gato e chame o método emitirSom().
